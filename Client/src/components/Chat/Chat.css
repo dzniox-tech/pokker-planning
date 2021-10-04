@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 8px;
+  height: 60%;
+  width: 35%;
+}
+@media (min-width: 400px) and (max-width: 589px) {
+  .container {
+    height: 65%;
+  }
+}
+@media (min-width: 360px) and (max-width: 399px) {
+  .container {
+    height: 80%;
+  }
+}
